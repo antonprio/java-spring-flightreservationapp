@@ -101,7 +101,7 @@
                 <input type="text" name="securityCode" />
             </td>
         </tr>
-        <input type="text" name="flightId" value="${flight.id}" />
+        <input type="hidden" name="flightId" value="${flight.id}" />
         <tr>
             <td>
                 <input type="submit" value="Submit" />
