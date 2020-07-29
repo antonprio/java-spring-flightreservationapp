@@ -34,4 +34,9 @@ public class FlightController {
         LOGGER.info("Flight found are : " + flights);
         return "displayFlights";
     }
+
+    @RequestMapping("admin/showAddFlight")
+    public String showAddFlight() {
+        return "addFlight";
+    }
 }
